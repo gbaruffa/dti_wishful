@@ -1,5 +1,8 @@
 # Dvb-Tx-Iris Project
 
+This package contains the components which may be used to create
+DVB-T radios with the IRIS software radio framework.
+
 The DVB-TX-IRIS extension is an extension of the Iris framework. Iris is a
 software architecture for building highly reconfigurable radio networks using 
 a component-based design. The architecture comprises two repositories - 
