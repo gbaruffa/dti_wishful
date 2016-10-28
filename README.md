@@ -1,22 +1,20 @@
 # Dvb-Tx-Iris Project
 
-Iris is a software architecture for building highly reconfigurable radio networks using a component-based design. The architecture comprises two repositories - Iris_Core and Iris_Modules. Iris_Core contains the core part of the architecture such as parsers, managers and engines. Iris_Modules contain the components which can be used to create your software radio such as PHY-layer components and radio controllers. Dvb-Tx-Iris is an extension set of modules that allow to create DVB-T modulators.
-
-## Description
-
-The Iris architecture offers support for all layers of the network stack and provides a platform for the development of not only reconfigurable point-to-point radio links but complete networks of reconfigurable radios. Individual radios are described using an XML document. This lists the components which comprise the radio, gives the values to be used for their parameters and describes the connections between them.
-
-Iris was originally developed by CTVR, The Telecommunications Research Centre, based at University of Dublin, Trinity College. In 2013, it was released under the LGPL v3 license and is currently managed by Software Radio Systems (http://www.softwareradiosystems.com).
-
-## Getting Started
-
-The installation guide can be found in the DOC folder, available after compilation.
-Read the INSTALLATION section for further information.
-After installation is carried out, run an example:
-
-* cd examples/dvbt
-* dd if=/dev/urandom of=mux4800000.ts bs=1M count=10
-* iris -f config.iris dvbt1chain_ofdmmod_filter_spectrum.xml 
+The DVB-TX-IRIS extension is an extension of the Iris framework. Iris is a
+software architecture for building highly reconfigurable radio networks using 
+a component-based design. The architecture comprises two repositories - 
+Iris_Core and Iris_Modules. Iris_Core contains the core part of the architecture 
+such as parsers, managers, and engines. Iris_Modules contain the components 
+which can be used to create a software radio such as PHY-layer components and 
+radio controllers. The Iris architecture, written in C++, supports all layers 
+of the network stack and provides a platform for the development of not only 
+reconfigurable point-to-point radio links, but complete networks of reconfigurable 
+radios. Individual radios are described using an XML document. This lists the 
+components which comprise the radio, gives the values to be used for their 
+parameters and describes the connections between them. Iris was originally 
+developed by CTVR, The Telecommunications Research Centre, based at University 
+of Dublin, Trinity College. In 2013, it was released under the LGPL v3 license 
+and is currently managed by Software Radio Systems (http://www.softwareradiosystems.com).
 
 ## Requirements
 
