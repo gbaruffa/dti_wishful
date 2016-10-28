@@ -40,8 +40,7 @@ Optional:
 
 ## Installation
 
-* Use SVN to check out the main repository branch with the communicated credentials
-** svn checkout http://dante.diei.unipg.it/svn/dti_wishful
+* Use SVN to check out the main repository branch
 * cd dti_wishful
 * mkdir build
 * cd build
